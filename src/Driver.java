@@ -3,8 +3,8 @@ public class Driver {
     static final int INPUT_SIZE = 6;
     static final int HIDDEN_NODES = 4;
     static final int OUTPUT_SIZE = 1;
-    static final double LEARNING_RATE = 0.2;
-    static final int TRAINING_ITERATIONS = 500;
+    static final double LEARNING_RATE = 0.1;
+    static final int TRAINING_ITERATIONS = 100;
 
     private static double[][] layer1_synaptic_weights = new double[HIDDEN_NODES][INPUT_SIZE];
     private static double[][] layer2_synaptic_weights = new double[OUTPUT_SIZE][HIDDEN_NODES];
